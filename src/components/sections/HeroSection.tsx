@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "primereact/button"
 import { Reveal } from "../Reveal"
-import curriculo from "@/assets/Wallace_2026.pdf"
+import curriculo from "@/assets/Wallace_curric_2026.pdf"
 
 const phrases = [
   "Front-End Jr & Full Stack",
