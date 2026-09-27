@@ -57,7 +57,7 @@ export const EmptyState = ({
           {showHomeAction && (
             <Button
               label="Ir para o Dashboard"
-              onClick={() => navigate(PageRoutesKeys.DASHBOARD)}
+              onClick={() => navigate(PageRoutesKeys.HOME)}
               className="w-full sm:w-auto"
             />
           )}

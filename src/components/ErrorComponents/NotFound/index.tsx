@@ -27,7 +27,7 @@ export const NotFound = () => {
           label="Ir para o início"
           variant={ButtonVariant.OUTLINED}
           severity={ButtonSeverity.SECONDARY}
-          onClick={() => navigate(PageRoutesKeys.DASHBOARD)}
+          onClick={() => navigate(PageRoutesKeys.HOME)}
         />
 
         <Button label="Retornar a página anterior" onClick={() => navigate(-1)} />
