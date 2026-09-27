@@ -3,15 +3,20 @@ import { PageRoutesKeys } from "@/Interfaces/Routes"
 import HomePage from "@/pages/HomePage"
 import { RootErrorBoundary } from "@/components/RootErrorBoundary"
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      errorElement: <RootErrorBoundary />,
+      children: [
+        {
+          path: PageRoutesKeys.HOME,
+          element: <HomePage />
+        }
+      ],
+    },
+  ],
   {
-    path: "/",
-    errorElement: <RootErrorBoundary />,
-    children: [
-      {
-        path: PageRoutesKeys.HOME,
-        element: <HomePage />
-      }
-    ],
-  },
-])
+    basename: import.meta.env.BASE_URL, 
+  }
+)
