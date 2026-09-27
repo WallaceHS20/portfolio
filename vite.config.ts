@@ -5,8 +5,9 @@ import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/portfolio/',
   server: {
-    host: true, // ou coloque o IP específico, ex: '0.0.0.0'
+    host: true,
   },
   resolve: {
     alias: {
