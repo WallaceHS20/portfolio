@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import "primereact/resources/primereact.min.css";
+@import "primereact/resources/themes/lara-light-blue/theme.css";
+@import "primeicons/primeicons.css";
+
+@theme {
+  --animate-fadeInUp: fadeInUp 0.5s ease-out both;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
