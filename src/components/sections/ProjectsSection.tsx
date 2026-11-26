@@ -16,6 +16,19 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: "Sonora — Landing Page com GSAP",
+    company: "Projeto Pessoal",
+    category: "Desenvolvimento Web",
+    description:
+      "Landing page interativa do headphone Sonora com animações sincronizadas ao scroll, navegação por snap no desktop, adaptação responsiva no mobile e encaixe dinâmico na seção de modelos.",
+    technologies: ["React", "TypeScript", "GSAP", "Tailwind CSS", "Vite"],
+    image:
+      "https://yt3.googleusercontent.com/kCkMHolr-5z5P7wMLSfhKF2Y5wr4trsregRhkJ4Az670YI1Q8NkeqqMhHjlZ6soWdoE1DEwh=s900-c-k-c0x00ffffff-no-rj",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ8e12cUwWMRDYhuPuajKbSCbZhaWcNQv5GfvuAH7v5FOuVEY_h65QYyA&s=10",
+    link: "https://wallacehs20.github.io/GSAP-HEADPHONE/",
+  },
+  {
+    id: 2,
     title: "Portal do Cliente",
     company: "Copa Energia",
     category: "Desenvolvimento Web",
@@ -28,7 +41,7 @@ const projects: Project[] = [
     link: "https://portalmi.copaenergia.com.br/login",
   },
   {
-    id: 2,
+    id: 3,
     title: "Portal RE",
     company: "Plano Santa Casa Saúde",
     category: "Refatoração & Front-end",
@@ -41,7 +54,7 @@ const projects: Project[] = [
     link: "https://portalre.santacasasaudesjc.tec.br/login",
   },
   {
-    id: 3,
+    id: 4,
     title: "MILENA-AI",
     company: "Projeto Pessoal",
     category: "AI & EdTech",
@@ -55,7 +68,7 @@ const projects: Project[] = [
     private: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "GihLash",
     company: "Projeto Pessoal",
     category: "E-commerce",
@@ -67,7 +80,7 @@ const projects: Project[] = [
     link: "https://wallacehs20.github.io/gilash/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Controle de Dados",
     company: "Receita Federal",
     category: "Sistema & Dados",
