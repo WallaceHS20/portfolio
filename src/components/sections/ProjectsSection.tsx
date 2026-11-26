@@ -23,7 +23,7 @@ const projects: Project[] = [
       "Landing page interativa do headphone Sonora com animações sincronizadas ao scroll, navegação por snap no desktop, adaptação responsiva no mobile e encaixe dinâmico na seção de modelos.",
     technologies: ["React", "TypeScript", "GSAP", "Tailwind CSS", "Vite"],
     image:
-      "https://yt3.googleusercontent.com/kCkMHolr-5z5P7wMLSfhKF2Y5wr4trsregRhkJ4Az670YI1Q8NkeqqMhHjlZ6soWdoE1DEwh=s900-c-k-c0x00ffffff-no-rj",
+      "https://www.technicalmickey.com/wp-content/uploads/2025/10/GSAP.webp",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ8e12cUwWMRDYhuPuajKbSCbZhaWcNQv5GfvuAH7v5FOuVEY_h65QYyA&s=10",
     link: "https://wallacehs20.github.io/GSAP-HEADPHONE/",
   },
